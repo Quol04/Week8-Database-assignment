@@ -56,7 +56,7 @@ CREATE TABLE Treatment (
 );
 
 
--- Prescription_Medication 
+-- Prescription_Medication table
 CREATE TABLE Prescription_Medication (
     prescription_id INT PRIMARY KEY,
     medication_id INT,
