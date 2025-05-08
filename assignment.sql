@@ -60,7 +60,9 @@ CREATE TABLE Treatment (
 CREATE TABLE Prescription_Medication (
     prescription_id INT PRIMARY KEY,
     medication_id INT,
+    appointment_id INT,
     dosage VARCHAR(50),
     duration VARCHAR(50),
-    FOREIGN KEY (medication_id) REFERENCES Medication(medication_id)
+    FOREIGN KEY (medication_id) REFERENCES Medication(medication_id),
+     FOREIGN KEY (appointment_id) REFERENCES Appointment(appointment_id)
 );

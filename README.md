@@ -22,4 +22,6 @@ Description of what your project does
 
 ## ERD
 
+[Link](https://app.diagrams.net/#G1Z0J3O5c7CJq4eHo_eyElPhgK6KA0gdsJ#%7B%22pageId%22%3A%22aqFZoREJnGYSpuJXvaab%22%7D)
 
+![ERD Screenshot](images/week8DB.png)
