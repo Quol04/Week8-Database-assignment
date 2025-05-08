@@ -55,13 +55,6 @@ CREATE TABLE Treatment (
     FOREIGN KEY (appointment_id) REFERENCES Appointment(appointment_id)
 );
 
--- Prescription Table
-CREATE TABLE Prescription (
-    prescription_id INT PRIMARY KEY,
-    appointment_id INT ,
-    issued_date DATE ,
-    FOREIGN KEY (appointment_id) REFERENCES Appointment(appointment_id)
-);
 
 -- Prescription_Medication 
 CREATE TABLE Prescription_Medication (
