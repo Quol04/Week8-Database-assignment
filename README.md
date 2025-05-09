@@ -33,6 +33,32 @@ It supports booking and managing appointments :
 ---
 
 ## How to run/setup the project (or import SQL)
+### Prerequisites
+- A SQL database server:
+
+a. MySQL.
+
+- A database client tool:
+
+e.g., MySQL Workbench, 
+
+- Basic knowledge of SQL commands
+
+### Step-by-Step Setup Guide
+#### Step 1: Install Database Server
+If you don’t have a database server installed then download and install:
+
+#### Step 2: Launch Your SQL Client
+Use any SQL client tool to connect to your database server. Create a new database:
+
+CREATE DATABASE clinic_booking;
+USE clinic_booking;
+
+#### Step 3: Create the Tables
+
+Create all the tables
+
+---
 
 ## ERD
 
