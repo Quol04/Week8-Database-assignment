@@ -49,19 +49,31 @@ e.g., MySQL Workbench,
 If you don’t have a database server installed then download and install:
 
 #### Step 2: Launch Your SQL Client
-Use any SQL client tool to connect to your database server. Create a new database:
+Use any SQL client tool to connect to your database server.
 
-CREATE DATABASE clinic_booking;
-USE clinic_booking;
+Create a new database:
+``` sql
+CREATE DATABASE myClinic;
+USE myClinic;
+```
 
 #### Step 3: Create the Tables
 
-Create all the tables
-
+Create all the tables for example:
+```sql
+-- Medication Table
+CREATE TABLE Medication (
+    medication_id INT PRIMARY KEY,
+    medicineName VARCHAR(100) NOT NULL UNIQUE,
+    description TEXT
+);
+```
 ---
 
 ## ERD
 
-[Link](https://app.diagrams.net/#G1Z0J3O5c7CJq4eHo_eyElPhgK6KA0gdsJ#%7B%22pageId%22%3A%22aqFZoREJnGYSpuJXvaab%22%7D)
+[Draw.io Website Link](https://app.diagrams.net/#G1Z0J3O5c7CJq4eHo_eyElPhgK6KA0gdsJ#%7B%22pageId%22%3A%22aqFZoREJnGYSpuJXvaab%22%7D)
+
+Sample Screenshot
 
 ![ERD Screenshot](images/week8DB.png)
